@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock_Paper_Scissors-NG</title>
+        <link rel="stylesheet" href="rps_style.css">
+
+    </head>
+    <body>
+        <div class="main-box">
+            <div class="upper">
+                <p class="heading"><u>Rock-Paper-Scissors Game</u></p>
+                <div class="button-line">
+                    <button class="button" title="Rock" onclick="playGame('rock')"><img class="icon" src="Icons/rock.png"></button>
+                    <button class="button" title="Paper" onclick="playGame('paper')"><img class="icon" src="Icons/paper.png"></button>
+                    <button class="button" title="Scissor" onclick="playGame('scissor')"><img class="icon" src="Icons/scissor.png"></button>
+                </div>
+            </div>
+            <div class="middle">
+                <p class="middle-result"></p>
+                <div class="middle-moves">
+                    <p class="middle-move-info"></p>
+                </div>
+            </div>
+            <div class="lower">
+                <p class="result-line"></p>
+                <div class="reset-line"><button class="reset-button" onclick="
+                    score.wins = 0;
+                    score.losses = 0;
+                    score.ties = 0;
+                    localStorage.removeItem('score');
+                    updateScoreElement();
+                  ">Reset Score</button></div>
+                <p class="credit-line">Made by: Nischaya Garg<br>Thanks for playing!</p>
+            </div>
+        </div>
+        <script src="rps_script.js"></script>
+    </body>
+</html>

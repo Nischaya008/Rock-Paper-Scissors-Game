@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(25, 25, 25);
+}
+.main-box{
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    width:600px;
+    height: 600px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    flex-direction: column;
+}
+.upper, .middle, .lower{
+    margin-top:-10px;
+}
+.heading{
+    margin-top:-10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+.middle-result{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.button-line{
+    display:flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.middle-moves{
+    margin-top:-35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle-move-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.result-line{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.credit-line{
+    margin-top:80px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.button{
+    margin: 20px;
+    background: none;
+    border:3px solid white;
+    width:100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: darkgray;
+}
+.button:active{
+    background-color: gray;
+}
+.reset-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reset-button{
+    padding:5px;
+    background: none;
+    border:3px solid white;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.reset-button:hover{
+    background-color: darkgray;
+}
+.reset-button:active{
+    background-color: gray;
+}
